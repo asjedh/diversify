@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Sign In</h2>
+  <form action="" method="post">
+    <p>Email: {{ form.email_field(size=80)}}</p>
+    <p>Password: {{ form.password_field(size=80)}}</p>
+    <input type="submit" value="Sign In">
+</form>
+{% endblock %}
